@@ -7,29 +7,27 @@
     <script defer src="https://unpkg.com/alpinejs"></script>
     <style>
         .vrac {
-        "X" #000 #fff #fff 2px solid 0 0 0 0 0 100% 100% 100% 1rem 1rem 1rem 2px
-        solid #fff 2rem 2rem 2rem 50% absolute auto background-color background-color
-        block border border border-radius bottom center center color content cursor
-        display display fixed font-family grid height height height left line-height 
-        margin max-width padding place-content pointer position position
-        rgba(0,0,0,0.9) right right sans-serif text-align top top width width
+        0 0 0 0 100% 100% background-color bottom center cursor
+        display fixed font-family grid height left line-height 
+        padding place-content pointer position
+        rgba(0,0,0,0.9) right top width
         }
         .overlay {
-        /* Sit on top of the page content */
-        /* Full width (cover the whole page) */
-        /* Full height (cover the whole page) */
-        /* Stay at the top */
-        /* Stay at the left */
-        /* Stay at the right */
-        /* Stay at the bottom */
-        /* Black background with opacity */
-        /* Add a pointer on hover */
-        /* Use a grid for easy centering */
-        /* Center vertically and horizontally */
+        position: fixed;/* Sit on top of the page content */
+        width: 100%; /* Full width (cover the whole page) */
+        height: 100%; /* Full height (cover the whole page) */
+        top: 0;/* Stay at the top */
+        left: 0;/* Stay at the left */
+        right: 0;/* Stay at the right */
+        bottom: 0;/* Stay at the bottom */
+        background-color: rgba(0,0,0,0.9);/* Black background with opacity */
+        cursor: pointer;/* Add a pointer on hover */
+        display: grid;/* Use a grid for easy centering */
+        place-content: center;/* Center vertically and horizontally */
         }
         .overlay::after {
         content: "X"; /* Add content : "X" */
-        color: white; /* White text color */
+        color: #fff; /* White text color */
         background-color: #000; /* Black background color */
         font-family: sans-serif; /* Font family "sans-serif" */
         text-align: center; /* Centered text */
